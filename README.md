@@ -2,6 +2,11 @@
 
 This is a **Todo App** built with **React** and **TypeScript**, utilizing **Vite** for fast builds and hot module replacement (HMR). The app allows users to create, edit, delete, and mark tasks as completed.
 
+## Live Demo
+
+Check out the live version of the app here:  
+🔗 **[Todo App on Netlify](https://moziz-todo-app.netlify.app/)**
+
 ## Features
 
 - **Add Tasks:** Easily add tasks to your to-do list.
@@ -14,6 +19,7 @@ This is a **Todo App** built with **React** and **TypeScript**, utilizing **Vite
 - **React**: For building the UI and managing state.
 - **TypeScript**: For static type checking and better developer experience.
 - **Vite**: A fast build tool for modern web applications.
+- **Netlify**: For seamless deployment and hosting.
 
 ## Preview
 
