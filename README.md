@@ -1,52 +1,30 @@
+## TODO
+
+(./assets/img/todo-screenshot.png)
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks by status (all, active, completed)
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
 ## Getting Started
 
-To run the app locally:
+To get started with the project, follow the instructions in the "To run the app locally" section above.
 
-1. Clone the repository:
+## Acknowledgements
 
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-   2. Navigate to the project directory:
-
-      ```bash
-      cd react-todo-app
-      ```
-
-   3. Install the dependencies:
-
-      ```bash
-      npm install
-      ```
-
-   4. Start the development server:
-
-      ```bash
-      npm run dev
-      ```
-
-   5. Open your browser and go to `http://localhost:5173` to see the app in action.
-
-   ## Contributing
-
-   If you would like to contribute to this project, please follow these steps:
-
-   1. Fork the repository.
-   2. Create a new branch:
-      ```bash
-      git checkout -b feature/your-feature-name
-      ```
-   3. Make your changes and commit them:
-      ```bash
-      git commit -m 'Add some feature'
-      ```
-   4. Push to the branch:
-      ```bash
-      git push origin feature/your-feature-name
-      ```
-   5. Open a pull request.
-
-   ## License
-
-   This project is licensed under the MIT License.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [npm](https://www.npmjs.com/)
+- [GitHub](https://github.com/)
+- [MIT License](https://opensource.org/licenses/MIT)
