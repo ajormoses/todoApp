@@ -1,52 +1,44 @@
-## Getting Started
+# Calculator App
 
-To run the app locally:
+This is a simple calculator application built with React.
+
+## Preview
+
+![Calculator App Preview](./src/assets/img/calculator-screenshot.png)
+
+## Features
+
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Clear and delete functionality.
+- Responsive design.
+
+## Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/yourusername/calculator-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd calculator-app
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
    ```
 
-   2. Navigate to the project directory:
+## Usage
 
-      ```bash
-      cd react-todo-app
-      ```
+1. Start the development server:
+   ```bash
+   npm start
+   ```
+2. Open your browser and navigate to `http://localhost:3000`.
 
-   3. Install the dependencies:
+## Contributing
 
-      ```bash
-      npm install
-      ```
+Contributions are welcome! Please open an issue or submit a pull request.
 
-   4. Start the development server:
+## License
 
-      ```bash
-      npm run dev
-      ```
-
-   5. Open your browser and go to `http://localhost:5173` to see the app in action.
-
-   ## Contributing
-
-   If you would like to contribute to this project, please follow these steps:
-
-   1. Fork the repository.
-   2. Create a new branch:
-      ```bash
-      git checkout -b feature/your-feature-name
-      ```
-   3. Make your changes and commit them:
-      ```bash
-      git commit -m 'Add some feature'
-      ```
-   4. Push to the branch:
-      ```bash
-      git push origin feature/your-feature-name
-      ```
-   5. Open a pull request.
-
-   ## License
-
-   This project is licensed under the MIT License.
+This project is licensed under the MIT License.
