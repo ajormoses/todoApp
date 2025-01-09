@@ -36,7 +36,7 @@ const Calc = () => {
             <div className="grid grid-cols-4 gap-4">
               <div
                 onClick={(e) => handleClick(e, "7")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -44,7 +44,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "8")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -52,7 +52,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "9")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -60,15 +60,15 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClear(e)}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl bg-white cursor-pointer ${
-                  isDark && "bg-blue-500 text-white"
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl  cursor-pointer ${
+                  isDark ? "bg-blue-500 text-white" : "bg-white text-black"
                 }`}
               >
                 AC
               </div>
               <div
                 onClick={(e) => handleClick(e, "4")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -76,7 +76,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "5")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -84,7 +84,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "6")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -92,15 +92,15 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "/")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl bg-white cursor-pointer ${
-                  isDark && "bg-blue-500 text-white"
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl  cursor-pointer ${
+                  isDark ? "bg-blue-500 text-white" : "bg-white text-black"
                 }`}
               >
                 {<FaDivide />}
               </div>
               <div
                 onClick={(e) => handleClick(e, "1")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -108,7 +108,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "2")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -116,7 +116,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "3")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -124,15 +124,15 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "*")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl bg-white cursor-pointer ${
-                  isDark && "bg-blue-500 text-white"
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl cursor-pointer ${
+                  isDark ? "bg-blue-500 text-white" : "bg-white text-black"
                 }`}
               >
                 {<FaTimes />}
               </div>
               <div
                 onClick={(e) => handleClick(e, "0")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -140,7 +140,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, ".")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -148,7 +148,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "+")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl bg-white cursor-pointer  ${
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-2xl  cursor-pointer  ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
@@ -156,8 +156,8 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleClick(e, "-")}
-                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl bg-white cursor-pointer ${
-                  isDark && "bg-blue-500 text-white"
+                className={`rounded-md h-12 w-15 flex justify-center items-center text-xl cursor-pointer ${
+                  isDark ? "bg-blue-500 text-white" : "bg-white text-black"
                 }`}
               >
                 {<FaMinus />}
@@ -174,7 +174,7 @@ const Calc = () => {
               </div>
               <div
                 onClick={(e) => handleCalculate(e)}
-                className={`rounded-md h-[40px] w-15 flex justify-center items-center text-xl bg-white cursor-pointer ${
+                className={`rounded-md h-[40px] w-15 flex justify-center items-center text-xl  cursor-pointer ${
                   isDark ? "bg-black text-white" : "bg-white text-black"
                 }`}
               >
