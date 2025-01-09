@@ -4,7 +4,7 @@ const Calc = () => {
   return (
     <div className="container">
       <div className="flex items-center justify-center h-screen">
-        <div className="rounded-lg p-4 bg-white w-full max-w-[700px] flex flex-col gap-4"></div>
+        <div className="rounded-lg p-4 bg-white w-full max-w-[500px] flex flex-col gap-4"></div>
       </div>
     </div>
   );
