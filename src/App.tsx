@@ -1,6 +1,6 @@
 import "./assets/tailwind.css";
 import "@mdi/font/css/materialdesignicons.css";
-import Calc from "./assets/Components/Calc";
+import Calc from "./components/Calc";
 
 function App() {
   return (
