@@ -49,7 +49,7 @@ export const CalcProvider = ({ children }: any) => {
     try {
       // Evaluate the input safely
       const result = new Function(`return ${input}`)(); // Safely evaluate the string expression
-      setInput(String(result)); // Update the input with the result
+      setInput(String(result.toFixed(3))); // Update the input with the result
     } catch (error) {
       setInput("Error"); // Display "Error" if the calculation fails
     }
