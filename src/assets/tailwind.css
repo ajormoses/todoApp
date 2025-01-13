@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-blue-400 transition-all duration-100 ease-linear m-0 p-0;
+  @apply bg-white transition-all duration-100 ease-linear m-0 p-0;
 }
 
 @layer components {
